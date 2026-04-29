@@ -1,0 +1,69 @@
+{
+  "colour": {
+    "text": {
+      "primary": {
+        "$value": "{colour.gray.900}",
+        "$type": "color",
+        "$description": "Default primary text"
+      },
+      "secondary": {
+        "$value": "{colour.gray.700}",
+        "$type": "color",
+        "$description": "Secondary text"
+      },
+      "inverse": {
+        "$value": "{colour.white}",
+        "$type": "color",
+        "$description": "Text on dark backgrounds"
+      }
+    },
+    "background": {
+      "default": {
+        "$value": "{colour.white}",
+        "$type": "color"
+      },
+      "subtle": {
+        "$value": "{colour.gray.50}",
+        "$type": "color"
+      },
+      "brand": {
+        "$value": "{colour.blue.500}",
+        "$type": "color"
+      },
+      "inverse": {
+        "$value": "{colour.gray.900}",
+        "$type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "$value": "{colour.gray.300}",
+        "$type": "color"
+      },
+      "strong": {
+        "$value": "{colour.gray.700}",
+        "$type": "color"
+      }
+    },
+    "action": {
+      "primary": {
+        "$value": "{colour.blue.500}",
+        "$type": "color"
+      },
+      "primaryHover": {
+        "$value": "{colour.blue.700}",
+        "$type": "color"
+      }
+    },
+    "feedback": {
+      "success": {
+        "$value": "{colour.green.500}",
+        "$type": "color"
+      },
+      "error": {
+        "$value": "{colour.red.500}",
+        "$type": "color"
+      }
+    }
+  }
+}
