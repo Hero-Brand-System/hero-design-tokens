@@ -1,68 +1,83 @@
 {
-  "colour": {
+  "color": {
     "text": {
       "primary": {
-        "$value": "{colour.gray.900}",
+        "$value": "{color.neutral.900}",
         "$type": "color",
-        "$description": "Default primary text"
+        "$description": "Primary text colour"
       },
       "secondary": {
-        "$value": "{colour.gray.700}",
+        "$value": "{color.neutral.700}",
         "$type": "color",
-        "$description": "Secondary text"
+        "$description": "Secondary text colour"
       },
       "inverse": {
-        "$value": "{colour.white}",
+        "$value": "{color.neutral.0}",
         "$type": "color",
-        "$description": "Text on dark backgrounds"
+        "$description": "Text colour for dark backgrounds"
+      },
+      "brand": {
+        "$value": "{color.brand.primary}",
+        "$type": "color",
+        "$description": "Brand-emphasised text"
       }
     },
     "background": {
       "default": {
-        "$value": "{colour.white}",
-        "$type": "color"
+        "$value": "{color.neutral.0}",
+        "$type": "color",
+        "$description": "Default page background"
       },
       "subtle": {
-        "$value": "{colour.gray.50}",
-        "$type": "color"
+        "$value": "{color.neutral.100}",
+        "$type": "color",
+        "$description": "Subtle background surface"
       },
       "brand": {
-        "$value": "{colour.blue.500}",
-        "$type": "color"
-      },
-      "inverse": {
-        "$value": "{colour.gray.900}",
-        "$type": "color"
+        "$value": "{color.brand.primary}",
+        "$type": "color",
+        "$description": "Brand background surface"
       }
     },
     "border": {
       "default": {
-        "$value": "{colour.gray.300}",
-        "$type": "color"
+        "$value": "{color.neutral.300}",
+        "$type": "color",
+        "$description": "Default border colour"
       },
       "strong": {
-        "$value": "{colour.gray.700}",
-        "$type": "color"
+        "$value": "{color.neutral.700}",
+        "$type": "color",
+        "$description": "Strong border colour"
       }
     },
     "action": {
       "primary": {
-        "$value": "{colour.blue.500}",
-        "$type": "color"
+        "$value": "{color.brand.primary}",
+        "$type": "color",
+        "$description": "Primary action background"
       },
-      "primaryHover": {
-        "$value": "{colour.blue.700}",
-        "$type": "color"
+      "primaryText": {
+        "$value": "{color.neutral.0}",
+        "$type": "color",
+        "$description": "Primary action text colour"
       }
     },
     "feedback": {
       "success": {
-        "$value": "{colour.green.500}",
-        "$type": "color"
+        "$value": "{color.success.500}",
+        "$type": "color",
+        "$description": "Success colour"
+      },
+      "warning": {
+        "$value": "{color.warning.500}",
+        "$type": "color",
+        "$description": "Warning colour"
       },
       "error": {
-        "$value": "{colour.red.500}",
-        "$type": "color"
+        "$value": "{color.error.500}",
+        "$type": "color",
+        "$description": "Error colour"
       }
     }
   }
