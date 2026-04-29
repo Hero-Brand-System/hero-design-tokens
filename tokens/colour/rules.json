@@ -1,0 +1,36 @@
+{
+  "contrastChecks": [
+    {
+      "foreground": "colour.text.primary",
+      "background": "colour.background.default",
+      "minRatio": 4.5,
+      "level": "AA"
+    },
+    {
+      "foreground": "colour.text.secondary",
+      "background": "colour.background.default",
+      "minRatio": 4.5,
+      "level": "AA"
+    },
+    {
+      "foreground": "colour.text.inverse",
+      "background": "colour.background.inverse",
+      "minRatio": 4.5,
+      "level": "AA"
+    },
+    {
+      "foreground": "colour.action.primary",
+      "background": "colour.background.default",
+      "minRatio": 3,
+      "level": "AA-large-or-ui"
+    }
+  ],
+  "usageRules": [
+    {
+      "token": "colour.background.brand",
+      "allowedTextTokens": [
+        "colour.text.inverse"
+      ]
+    }
+  ]
+}
