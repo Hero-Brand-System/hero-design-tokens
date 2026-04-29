@@ -104,3 +104,12 @@ Design owns visual intent and semantic suitability.
 Design system and frontend own token structure, implementation and downstream distribution.
 
 Changes to shared colour tokens should be reviewed cross-functionally when they affect both design and product.
+
+## Figma variable naming
+
+Figma variables should mirror the semantic token structure defined in this repository wherever possible.
+
+Example:
+- `color/text/primary`
+- `color/background/default`
+- `color/action/primary`
