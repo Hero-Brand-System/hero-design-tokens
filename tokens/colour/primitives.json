@@ -1,55 +1,63 @@
 {
-  "colour": {
-    "white": {
-      "$value": "#FFFFFF",
-      "$type": "color",
-      "$description": "Pure white"
-    },
-    "black": {
-      "$value": "#111111",
-      "$type": "color",
-      "$description": "Primary black"
-    },
-    "blue": {
-      "500": {
+  "color": {
+    "brand": {
+      "primary": {
         "$value": "#0057FF",
         "$type": "color",
-        "$description": "Primary brand blue"
+        "$description": "Primary HERO brand colour"
       },
-      "700": {
-        "$value": "#003BB0",
+      "secondary": {
+        "$value": "#5B3DF5",
         "$type": "color",
-        "$description": "Darker brand blue"
+        "$description": "Secondary HERO brand colour"
       }
     },
-    "gray": {
-      "50": {
-        "$value": "#F8F9FB",
-        "$type": "color"
+    "neutral": {
+      "0": {
+        "$value": "#FFFFFF",
+        "$type": "color",
+        "$description": "White"
+      },
+      "100": {
+        "$value": "#F5F7FA",
+        "$type": "color",
+        "$description": "Light neutral background"
       },
       "300": {
-        "$value": "#C7CED8",
-        "$type": "color"
+        "$value": "#D9E0E8",
+        "$type": "color",
+        "$description": "Subtle border"
       },
       "700": {
-        "$value": "#495261",
-        "$type": "color"
+        "$value": "#4B5563",
+        "$type": "color",
+        "$description": "Secondary text"
       },
       "900": {
-        "$value": "#1D2430",
-        "$type": "color"
+        "$value": "#111827",
+        "$type": "color",
+        "$description": "Primary text"
       }
     },
-    "green": {
+    "success": {
       "500": {
-        "$value": "#12805C",
-        "$type": "color"
+        "$value": "#15803D",
+        "$type": "color",
+        "$description": "Success base colour"
       }
     },
-    "red": {
+    "warning": {
       "500": {
-        "$value": "#C9352C",
-        "$type": "color"
+        "$value": "#B45309",
+        "$type": "color",
+        "$description": "Warning base colour"
+      }
+    },
+    "error": {
+      "500": {
+        "$value": "#B91C1C",
+        "$type": "color",
+        "$description": "Error base colour"
       }
     }
   }
