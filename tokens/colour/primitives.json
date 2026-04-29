@@ -1,0 +1,56 @@
+{
+  "colour": {
+    "white": {
+      "$value": "#FFFFFF",
+      "$type": "color",
+      "$description": "Pure white"
+    },
+    "black": {
+      "$value": "#111111",
+      "$type": "color",
+      "$description": "Primary black"
+    },
+    "blue": {
+      "500": {
+        "$value": "#0057FF",
+        "$type": "color",
+        "$description": "Primary brand blue"
+      },
+      "700": {
+        "$value": "#003BB0",
+        "$type": "color",
+        "$description": "Darker brand blue"
+      }
+    },
+    "gray": {
+      "50": {
+        "$value": "#F8F9FB",
+        "$type": "color"
+      },
+      "300": {
+        "$value": "#C7CED8",
+        "$type": "color"
+      },
+      "700": {
+        "$value": "#495261",
+        "$type": "color"
+      },
+      "900": {
+        "$value": "#1D2430",
+        "$type": "color"
+      }
+    },
+    "green": {
+      "500": {
+        "$value": "#12805C",
+        "$type": "color"
+      }
+    },
+    "red": {
+      "500": {
+        "$value": "#C9352C",
+        "$type": "color"
+      }
+    }
+  }
+}
