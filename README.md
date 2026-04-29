@@ -96,3 +96,11 @@ Avoid using raw hex values directly in product and design work unless explicitly
 This repository currently covers colour tokens.
 
 It may later expand to include other token categories such as typography, spacing, radius, elevation and motion.
+
+## Ownership
+
+Design owns visual intent and semantic suitability.
+
+Design system and frontend own token structure, implementation and downstream distribution.
+
+Changes to shared colour tokens should be reviewed cross-functionally when they affect both design and product.
